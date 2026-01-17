@@ -1,0 +1,148 @@
+body{
+    background: pink;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.photo{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(88, 5, 241, 0.918);
+}
+.info{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+
+}
+
+.info-text{
+   margin-bottom: 40px;
+   padding-left: 50px;
+}
+
+.info-text h1{
+    margin-right: 40px;
+}
+
+.info p{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-style: italic;
+}
+.container{
+    margin: auto;
+    max-width: 750px;
+}
+
+a{
+    color: rgb(76, 0, 255);
+    text-decoration: none;
+}
+ 
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(208, 127, 255);
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+.bg-blue{
+    background-color: #b9e6fe;
+
+}
+
+.bg-mint{
+    background-color: #B6FFBB;
+}
+
+.bg-bl{
+    background-color: #b9e6fe;
+
+}
+
+.bg-gr{
+    padding: 15px ;
+    margin-top: 20px;
+    background-color: #B6FFBB
+}
+
+.list{
+    margin-bottom: 10px;
+}
+
+.tab{
+    width: 100%;
+}
+
+.tab th{
+    background-color: rgb(85, 184, 230);
+}
+
+.contact h2{
+    text-align: center;
+
+}
+
+.contact{
+    margin-bottom: 40px;
+}
+
+.form label{
+    display: block;
+    font-size: 19px;
+
+}
+
+.form input{
+    padding: 10px;
+    width: 30%;
+     background-color: #d8b5ff;
+    
+}
+
+.form textarea{
+    border: none;
+    width: 32%;
+   
+}
+
+.form{
+    padding: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.site{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.site li{
+    padding: 10px;
+}
