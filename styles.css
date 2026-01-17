@@ -126,6 +126,11 @@ a:active{
 
 .form{
     padding: 5px;
+    text-align: center;
+}
+
+.form label{
+    padding:  5px;
 }
 
 .btn{
@@ -145,4 +150,5 @@ a:active{
 
 .site li{
     padding: 10px;
+
 }
